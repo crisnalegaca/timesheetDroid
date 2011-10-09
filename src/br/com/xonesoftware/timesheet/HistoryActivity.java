@@ -24,7 +24,7 @@ import br.com.xonesoftware.timesheet.model.Timesheet;
 
 /**
  * @author cris
- * Tela - Hist—rico do per’odo selecionado
+ * Tela - Hist—rico do per’odo selecionado.
  * 
  */
 public class HistoryActivity extends Activity {
