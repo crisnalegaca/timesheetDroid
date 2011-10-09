@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    
+    
+    <TextView
+    android:id="@+id/day"
+    android:text=""
+    android:textSize="20px"
+    android:layout_marginTop="10px"
+    android:layout_marginBottom="20px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+    
+    
+    <TextView
+    android:text="Horário de Entrada:"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    />
+    <TimePicker 
+    android:id="@+id/input"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+    
+    <TextView
+    android:text="Horário de Saída para o Almoço"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    />
+    <TimePicker 
+    android:id="@+id/outputLunch"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+    <CheckBox
+    android:id="@+id/enableOutputLunch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+    
+    <TextView
+    android:text="Horário de Entrada após o Almoço:"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    />
+    <TimePicker 
+    android:id="@+id/inputLunch"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+    
+    <TextView
+    android:text="Horário de Saída:"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    />
+    <TimePicker 
+    android:id="@+id/output"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+    
+    <Button
+    android:id="@+id/save"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Alterar" 
+    />
+</LinearLayout>
+</ScrollView>

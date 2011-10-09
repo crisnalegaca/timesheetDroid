@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TimesheetActivity!</string>
+    <string name="app_name">Controle de Horas</string>
+    <string name="history_name">Controle de Horas - Histórico</string>
+    <string name="edit_record_name">Controle de Horas - Editar Registro</string>
+</resources>
